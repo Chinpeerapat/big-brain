@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { SignInButton } from "@clerk/nextjs";
 import Image from "next/image";
@@ -24,11 +26,11 @@ export default function LandingPage() {
               src="/logo.png"
               width="200"
               height="200"
-              alt="a woman holding a document"
+              alt="Logo of a woman holding a document"
               className="mx-auto rounded-2xl mb-4"
             />
             <h1 className="dark:text-gray-50 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Take Control of you Team Documentation
+              Take Control of Your Team Documentation
             </h1>
             <p className="dark:text-gray-100 mt-6 text-lg leading-8 text-gray-600">
               BigBrain acts as your team's second brain, storing all your docs
